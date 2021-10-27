@@ -1,0 +1,34 @@
+{
+    "name": "Dusk wallet extenstion",
+    "description": "Dusk wallet extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts":[ 
+      {
+        "matches":[ "https://staking.dusk.network/"],
+        "js": [ "content_script.js" ]
+      }
+    ],
+    "background": {
+      "service_worker": [
+        "browser-polyfill.js",
+        "background.js"
+      ],
+      "service_worker":"background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+      "default_icon": {
+        "16": "/images/dusk16.png",
+        "32": "/images/dusk128.png",
+        "48": "/images/dusk128.png",
+        "128": "/images/dusk128.png"
+      }
+    },
+    "icons": {
+      "16": "/images/dusk16.png",
+      "32": "/images/dusk128.png",
+      "48": "/images/dusk128.png",
+      "128": "/images/dusk128.png"
+    }
+  }
