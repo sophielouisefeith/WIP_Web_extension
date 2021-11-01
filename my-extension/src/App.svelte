@@ -1,5 +1,6 @@
 <script>
 	import browser from "webextension-polyfill";
+	import Button from "@dusk-network/button";
   
 	let image = "https://images.unsplash.com/photo-1586074299757-dc655f18518c?fit=crop&w=1268&q=80";
   
@@ -10,5 +11,5 @@
   
   <main>
 	Image URL: <input type="text" bind:value={image} />
-	<button on:click={change}>Change</button>
+	<Button on:click={change}>Change</Button>
   </main>

@@ -19,6 +19,7 @@
     "webextension-polyfill": "^0.8.0"
   },
   "dependencies": {
+    "@dusk-network/button": "^4.0.2",
     "@dusk-network/helpers": "^4.0.2",
     "@dusk-network/styles": "^4.0.2",
     "@dusk-network/text-field": "^4.0.2",
