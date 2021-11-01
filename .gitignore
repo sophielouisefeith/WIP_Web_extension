@@ -1,0 +1,5 @@
+/my-extension/node_modules/
+/my-extension/public/build/
+
+.DS_Store
+.env
