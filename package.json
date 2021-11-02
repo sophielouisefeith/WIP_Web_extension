@@ -19,10 +19,16 @@
     "webextension-polyfill": "^0.8.0"
   },
   "dependencies": {
-    "@dusk-network/button": "^4.0.2",
-    "@dusk-network/helpers": "^4.0.2",
-    "@dusk-network/styles": "^4.0.2",
-    "@dusk-network/text-field": "^4.0.2",
+    "@dusk-network/button": "4.0.3",
+    "@dusk-network/control": "4.0.3",
+    "@dusk-network/logo": "4.0.3",
+    "@dusk-network/heading": "4.0.3",
+    "@dusk-network/helpers": "4.0.3",
+    "@dusk-network/progress-bar": "4.0.3",
+    "@dusk-network/rich-text": "4.0.3",
+    "@dusk-network/styles": "4.0.3",
+    "@dusk-network/text-field": "4.0.3",
+    "@dusk-network/toggle": "4.0.3",
     "sirv-cli": "^1.0.0"
   }
 }
