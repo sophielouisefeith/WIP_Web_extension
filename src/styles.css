@@ -6,9 +6,5 @@ body {
 }
 
 main {
-  @apply flex-grow w-full;
-}
-
-#dusk {
-  @apply flex flex-col;
+  @apply bg-indigo-300 w-full container;
 }

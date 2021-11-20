@@ -1,25 +1,20 @@
 {
-    "description": "web-extension-wallet",
+    "description": "dusk-browser-extension",
     "manifest_version": 3,
-    "name": "DUSK WALLET TEST",
+    "name": "Dusk Browser Extension",
     "version": "1.0.0",
     "permissions": ["storage"],
-    "background": {
-      "service_worker": "build/background.js"
+    "sandbox": {
+      "pages": [
+        "index.html"
+      ]
     },
     "action": {
       "default_popup": "index.html",
       "default_icon":{
         "16": "favicon.png"
       }
-    },
-    "content_scripts": [
-      {
-        "matches": ["https://*/*"],
-        "js": ["build/content.js"]
-      }
-    ]
-    
+    }
   }
   
 
